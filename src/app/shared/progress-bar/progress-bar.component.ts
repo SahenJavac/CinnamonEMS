@@ -23,9 +23,9 @@ export class ProgressBarComponent implements OnInit {
       this.progress = 0;
     }
 
-    if (this.progress < 35) {
+    if (this.progress < 25) {
       this.color = 'red'
-    } else if (this.progress < 75) {
+    } else if (this.progress < 65) {
       this.color = 'yellow'
     } else {
       this.color = 'green'
