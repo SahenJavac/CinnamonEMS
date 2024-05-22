@@ -61,6 +61,7 @@ export class EmployeesComponent {
         if (bubbleSortArray[j] > bubbleSortArray[j + 1]) {
           let tempElement = bubbleSortArray[j]
           bubbleSortArray[j] = bubbleSortArray[j + 1]
+          bubbleSortArray[j + 1]  = tempElement;
           bubbleSortArray[j + 1] = tempElement
         }
       }
