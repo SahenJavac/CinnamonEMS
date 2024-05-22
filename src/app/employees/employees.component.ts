@@ -65,7 +65,7 @@ export class EmployeesComponent {
         }
       }
     }
-    console.log('This is after sort ', bubbleSortArray) */
+    console.log('This is array after sort ', bubbleSortArray) */
 
 
 
